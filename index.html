@@ -4,14 +4,179 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
     <title>Положенский Александр | Веб-разработчик</title>
   </head>
   <body>
-    <nav id="navbar" class="nav"></nav>
-    <section id="welcome-section" class="welcome-section"></section>
-    <section id="projects" class="projects-section"></section>
-    <section id="skills" class="skills-section"></section>
-    <section id="contact" class="contact-section"></section>
-    <footer></footer>
+    <nav id="navbar" class="nav">
+      <div class="nav__logo">
+        <p>АП</p>
+      </div>
+      <ul class="nav__list">
+        <li>Главная</li>
+        <li>Портфолио</li>
+        <!-- <li>Навыки</li> -->
+        <li>Контакты</li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome-section">
+      <div class="welcome-section-description">
+        <h1>
+          <span>Александр</span>
+          <span>Положенский</span>
+          <span>Веб-разработчик</span>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus quam numquam reiciendis tempore? Aspernatur dolor sit
+          iure minus consequatur alias libero, cupiditate nesciunt voluptatum
+          velit vero nemo placeat eius deserunt.
+        </p>
+      </div>
+      <div class="welcome-section-image">
+        <img src="img/hero.jpg" alt="Мое фото" />
+      </div>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">Некоторые из моих работ</h2>
+      <div class="projects-grid">
+        <a
+          href="https://codepen.io/sendgn/full/vYyyZBg"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img src="" alt="Проект" class="project-image" />
+          <p class="project-title">
+            <span class="code"><</span>
+            Страница дани уважения
+            <span class="code">/></span>
+          </p>
+        </a>
+      </div>
+      <div class="projects-grid">
+        <a
+          href="https://codepen.io/sendgn/full/NWbveJz"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img src="" alt="Проект" class="project-image" />
+          <p class="project-title">
+            <span class="code"><</span>
+            Техническая документация
+            <span class="code">/></span>
+          </p>
+        </a>
+      </div>
+      <div class="projects-grid">
+        <a
+          href="https://sendgn.github.io/product-landing/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img src="" alt="Проект" class="project-image" />
+          <p class="project-title">
+            <span class="code"><</span>
+            Страница доставки питания
+            <span class="code">/></span>
+          </p>
+        </a>
+      </div>
+      <div class="projects-grid">
+        <a
+          href="https://codepen.io/sendgn/full/rNWjOmX"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img src="" alt="Проект" class="project-image" />
+          <p class="project-title">
+            <span class="code"><</span>
+            Форма опросник
+            <span class="code">/></span>
+          </p>
+        </a>
+      </div>
+      <div class="projects-grid">
+        <a
+          href="https://sendgn.github.io/natours/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img src="" alt="Проект" class="project-image" />
+          <p class="project-title">
+            <span class="code"><</span>
+            Лэндинг турфирмы
+            <span class="code">/></span>
+          </p>
+        </a>
+      </div>
+      <div class="projects-grid">
+        <a
+          href="https://sendgn.github.io/nexter/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img src="" alt="Проект" class="project-image" />
+          <p class="project-title">
+            <span class="code"><</span>
+            Лэндинг риэлторы
+            <span class="code">/></span>
+          </p>
+        </a>
+      </div>
+    </section>
+    <!-- <section id="skills" class="skills-section"></section> -->
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Давайте работать вместе...</h2>
+        <p>Спасибо за внимание!</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://github.com/sendgn"
+          target="_blank"
+          class="btn contact-details"
+        >
+          <i class="fab fa-github"></i>
+          GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alexander-polozhenskii/"
+          target="_blank"
+          class="btn contact-details"
+        >
+          <i class="fab fa-linkedin"></i>
+          Linkedin
+        </a>
+        <a
+          href="https://vk.com/polozhenski"
+          target="_blank"
+          class="btn contact-details"
+        >
+          <i class="fab fa-vk"></i>
+          Vkontakte
+        </a>
+        <a
+          href="mailto:polozhenskii@gmail.com"
+          target="_blank"
+          class="btn contact-details"
+        >
+          <i class="fas fa-at"></i>
+          Написать
+        </a>
+        <a href="tel:89602432424" target="_blank" class="btn contact-details">
+          <i class="fas fa-mobile-alt"></i>
+          Позвонить
+        </a>
+      </div>
+    </section>
+    <footer>
+      <p>&copy;Copyright 2021 build by Alexander Polozhenskii</p>
+    </footer>
   </body>
 </html>
