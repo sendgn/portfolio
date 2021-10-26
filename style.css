@@ -1,44 +1,37 @@
 /* Custom properties / variables */
 :root {
-  --white: #f9f9f9;
-  --black: #1f2503;
-  --gray-dark: #718198;
-  --gray-middle: #e5e6eb;
-  --gray: #f2f3f5;
-  --primary-dark: #031225;
-  --primary-light: #08254d;
-  --secondary-dark: #e44024;
-  --secondary-light: #fd5032;
+    --primary-color: #1c1d1f;
+    --secondary-color: #f43f5e;
+    --text-primary: #fff;
+    --text-secondary: #d1d7dc;
 }
 
 /* Base reset */
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-/* box-sizing and font sizing */
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 html {
-  box-sizing: border-box;
-
-  /* Set font size for easy rem calcs */
-  /* (100% / 16px) * 10px = 62.5% */
-  /* now 1rem is 10px */
-  font-size: 62.5%;
-  scroll-behavior: smooth;
+    box-sizing: border-box;
+    /* Set font size for easy rem calcs */
+    /* (100% / 16px) * 10px = 62.5% */
+    /* now 1rem is 10px */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 /* Base styles */
 body {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 1.4;
-  color: var(--white);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--text-primary);
 }
