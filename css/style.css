@@ -1,6 +1,6 @@
 /* Custom properties / variables */
 :root {
-    --primary-color: #1c1d1f;
+    --primary-color: #1c1d1e;
     --secondary-color: #f43f5e;
     --text-primary: #fff;
     --text-secondary: #d1d7dc;
@@ -34,4 +34,10 @@ body {
     font-weight: 400;
     line-height: 1.4;
     color: var(--text-primary);
+    background-color: var(--primary-color);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
 }
